@@ -17,9 +17,12 @@ var pracownicy = {
 ]
 }
 
+/*
+Za pomocą pętli forEach przeiteruj po każdym pracowniku, oraz wyświetl w konsoli index elementu tablicy oraz imie i nazwisko pracownika.
+*/
 
 pracownicy.pracownicy.forEach(function (elem, index) {
     console.log('Pracownik ' + (index + 1) + ' ma na imię ' + elem.firstName + ' i na nazwisko ' + elem.lastName);
 });
 
-console.log
+console.log('Pracownik 1 ma na imię ' + pracownicy.pracownicy[0].firstName + ' i na nazwisko ' + pracownicy.pracownicy[0].lastName);
